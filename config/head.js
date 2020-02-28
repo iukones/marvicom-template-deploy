@@ -14,7 +14,7 @@ export default {
     {
       rel: 'stylesheet',
       href:
-        'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400,600&display=swap'
+        'https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:600&display=swap'
     }
   ],
   script: [

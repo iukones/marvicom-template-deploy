@@ -106,9 +106,8 @@ export default {
 </script>
 
 <style>
-html {
-  font-family: 'Open Sans Condensed', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+body {
+  font-family: 'Open Sans';
   font-size: 18px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -116,25 +115,25 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background: #0b0d17;
-  color: #eee;
 }
+
 a,
 a:visited,
 a:active {
-  color: white;
+  /* color: white; */
   text-decoration: none;
 }
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 600 !important;
 }
-h1 {
-  font-weight: 45px;
-}
+
 *,
 *:before,
 *:after {

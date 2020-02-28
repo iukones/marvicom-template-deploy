@@ -8,7 +8,7 @@
         Subscribe To Newsletter
       </button>
     </site-hero>
-    <main-section theme="one-column">
+    <main-section theme="sidebar-right">
       <template v-slot:default>
         <!-- All Posts -->
         <posts-grid />
