@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  siteName: 'Marvicom, comunicaciones',
+  tagline: 'Noticias y reportajes al día',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -48,7 +48,7 @@ export default {
   // Main Layout/Style
   layout: {
     width: 'contained', // Options: contained, full
-    theme: 'one-column' // Options: one-column, sidebar-right, sidebar-left
+    theme: 'sidebar-right' // Options: one-column, sidebar-right, sidebar-left
   },
 
   // Card Layout
@@ -67,8 +67,8 @@ export default {
   // Newsletter Subscribe
   newsletter: {
     on: true,
-    heading: 'Subscribe to Our Newsletter',
-    btnText: 'Subscribe',
+    heading: 'Suscribete a nuestras news',
+    btnText: 'Suscribirse',
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to
     mailchimp: {
