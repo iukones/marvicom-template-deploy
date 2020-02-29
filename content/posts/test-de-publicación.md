@@ -11,4 +11,4 @@ featureImage: /uploads/about-hero.jpg
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_CNZJLYvINc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![](http://img.youtube.com/vi/_CNZJLYvINc/0.jpg)](http://www.youtube.com/watch?v=_CNZJLYvINc "")
