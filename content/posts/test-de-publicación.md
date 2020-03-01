@@ -7,7 +7,7 @@ author: iukones
 date: 2020-02-29T07:44:42.447Z
 featureImage: /uploads/about-hero.jpg
 ---
-## Test de video incrustado...
+## Test de vídeo incrustado...
 
 Da click en la imagen para ver el vídeo.
 
