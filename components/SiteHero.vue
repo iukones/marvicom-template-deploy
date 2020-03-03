@@ -3,7 +3,7 @@
     <img
       class="hero-bg-img"
       :src="responsiveImage.src"
-      :lazy="false"
+      :lazy="true"
       :srcset="responsiveImage.srcSet"
     />
     <div class="hero-body">
@@ -63,25 +63,30 @@ export default {
 }
 
 .title {
-  font-weight: 300;
+  font-family: 'Open Sans';
+  letter-spacing: 3px;
   @media (min-width: 768px) {
     font-size: 3.2rem;
   }
 }
 .subtitle,
 .under-subtitle {
+  font-family: 'Open Sans';
   padding: 0;
   margin: 0;
 }
 .subtitle {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 0 !important;
+  padding-top: 1rem;
+  letter-spacing: 1.5px;
 }
 .under-subtitle {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 1rem;
   border-top: 2px solid $primary;
   padding-top: 5px;
+  letter-spacing: 1px;
 }
 .opti-image {
   opacity: 0;

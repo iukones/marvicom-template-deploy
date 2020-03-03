@@ -87,7 +87,7 @@
 
       <template v-slot:sidebar>
         <h3 class="subtitle is-4">
-          Latest Posts
+          Últimas publicaciones
         </h3>
         <posts-grid :per-row="1" :number="2" />
       </template>

@@ -9,12 +9,12 @@
       <img
         v-for="x in frames"
         :key="x"
-        :src="`/logo-frames/logo-f${x - 1}.svg`"
+        :src="`/logo-frames/withBackground.svg`"
       />
       <img
         v-for="x in frames"
         :key="`${x}-r`"
-        :src="`/logo-frames/logo-f${frames - x}.svg`"
+        :src="`/logo-frames/withBackground.svg`"
       />
     </div>
   </div>
@@ -53,7 +53,8 @@ export default {
     height: 500px;
     img {
       display: block;
-      height: 40px;
+      width: 150px;
+      height: 50px;
       margin: 5px;
       max-height: initial;
     }

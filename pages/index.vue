@@ -5,7 +5,7 @@
         class="button is-primary"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
       >
-        Subscribe To Newsletter
+        Suscribete al Newsletter
       </button>
     </site-hero>
     <main-section theme="sidebar-right">
@@ -14,7 +14,7 @@
         <posts-grid />
       </template>
       <template v-slot:sidebar>
-        Nothing here
+        Sección publicitaria
       </template>
     </main-section>
     <news-letter-form-modal />
