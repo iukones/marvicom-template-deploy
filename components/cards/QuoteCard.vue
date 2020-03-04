@@ -2,8 +2,8 @@
   <div class="card quote-card">
     <div class="card-content">
       <p class="title">
-        “Always code as if the guy who ends up maintaining your code will be a
-        violent psychopath who knows where you live.”
+        “Siempre codifique como si el tipo que termina manteniendo su código sea
+        un psicópata violento que sabe dónde vive.”
       </p>
       <p class="subtitle">
         ~ Martin Golding
@@ -11,10 +11,10 @@
     </div>
     <footer class="card-footer">
       <div class="card-footer-item">
-        <span> Share on <a href="#">Twitter</a> </span>
+        <span> Siguenos en <a href="#">Youtube</a> </span>
       </div>
       <div class="card-footer-item">
-        <span> Share on <a href="#">Facebook</a> </span>
+        <span> Siguenos en <a href="#">Facebook</a> </span>
       </div>
     </footer>
   </div>

@@ -34,7 +34,7 @@
         </div>
 
         <li v-else>
-          No results found
+          No encontrado
           <font-awesome-icon
             icon="times"
             @click="toggleSearchBar()"
@@ -141,6 +141,7 @@ export default {
     top: 50%;
     right: 10px;
     transform: translateY(-50%);
+    cursor: pointer;
   }
   &.inactive {
     input {
@@ -150,6 +151,7 @@ export default {
     .search-icon {
       position: static;
       transform: translateX(-10px);
+      cursor: pointer;
     }
   }
   &.active {
