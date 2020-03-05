@@ -80,6 +80,7 @@ export default {
 .subtitle {
   opacity: 0.5;
   font-size: 0.8rem;
+  font-family: 'Open Sans';
 }
 .empty-content-placeholder {
   background: transparent;

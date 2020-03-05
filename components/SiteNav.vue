@@ -75,5 +75,10 @@ export default {
 
 .navbar-menu a {
   display: block;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 13px;
+  color: #ff3366;
+  text-transform: uppercase;
 }
 </style>

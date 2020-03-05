@@ -1,3 +1,4 @@
+/* eslint-disable */
 <template>
   <div id="post-page" class="page-wrapper post-page">
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
@@ -5,10 +6,12 @@
         v-if="author && $siteConfig.posts.displayAuthor"
         class="author-wrapper"
       >
-        <strong>Author:</strong> {{ author }}
+        <strong>Autor:</strong>
+        {{ author }}
       </span>
       <span v-if="date" class="date-wrapper">
-        <strong>Published on:</strong> {{ date }}
+        <strong>Publicado:</strong>
+        {{ date }}
       </span>
     </site-hero>
     <main-section :one-column-constrained="true">
@@ -17,7 +20,7 @@
           <markdown :markdown="$store.state.content" />
           <div class="other-posts">
             <h6 class="subtitle is-size-4">
-              Related Posts
+              Artículos Relacionados
             </h6>
             <!-- Related Posts -->
             <posts-grid :number="3" :category="category" :exclude="slug" />

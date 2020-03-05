@@ -1,14 +1,14 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
-      title="About Us"
-      subtitle="Example About Page"
+      title="Sobre nosotros"
+      subtitle="Explicación, Misión, Visión"
       image="/uploads/about-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>Fake Heading</h3>
+          <h3>Fake contenido</h3>
           <p>
             <strong>
               Edit this page in<code>/pages/about.vue</code>to fit your needs.
@@ -21,7 +21,7 @@
             ratione rem repudiandae sit!
           </p>
 
-          <h3>Another Fake Heading</h3>
+          <h3>otro Fake contenido</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
             eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
@@ -87,7 +87,7 @@
 
       <template v-slot:sidebar>
         <h3 class="subtitle is-4">
-          Latest Posts
+          Últimas publicaciones
         </h3>
         <posts-grid :per-row="1" :number="2" />
       </template>

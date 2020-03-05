@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Marvicom.live',
-  tagline: 'Noticias y reportajes oportunos',
+  siteName: 'Marvicom Comunicaciones',
+  tagline: 'Noticias, reportajes veraces y oportunos',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -23,12 +23,16 @@ export default {
       link: '/about'
     },
     {
-      name: 'Contacto',
-      link: '/contact'
+      name: 'Servicios',
+      link: '/about'
     },
     {
       name: 'Categorias',
       link: '/categories'
+    },
+    {
+      name: 'Contacto',
+      link: '/contact'
     }
   ],
   hero: {
@@ -49,7 +53,7 @@ export default {
 
   // Disqus
   disqus: {
-    on: true,
+    on: false,
     loadingStrategy: 'button', // Options: onload, lazy, button
     siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
   },
@@ -57,7 +61,7 @@ export default {
   // Newsletter Subscribe
   newsletter: {
     on: true,
-    heading: 'Suscribete al Newsletter',
+    heading: 'Suscribete',
     btnText: 'Suscribirse',
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to

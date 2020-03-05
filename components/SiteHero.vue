@@ -3,7 +3,7 @@
     <img
       class="hero-bg-img"
       :src="responsiveImage.src"
-      :lazy="false"
+      :lazy="true"
       :srcset="responsiveImage.srcSet"
     />
     <div class="hero-body">
@@ -30,6 +30,7 @@ export default {
   name: 'SiteHero',
   props: {
     title: { type: String, default: '' },
+    span: { type: String, default: '' },
     subtitle: { type: String, default: '' },
     image: { type: String, default: '' },
     color: { type: String, default: '#469af0' },
@@ -54,34 +55,47 @@ export default {
 
 <style lang="scss" scoped>
 .hero {
-  margin-top: 52px;
+  margin-top: 6rem;
   background-size: cover !important;
   background-position: center;
   text-align: center;
   overflow: hidden;
   position: relative;
+  height: 80vh;
 }
 
 .title {
-  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  // letter-spacing: 3px;
+  line-height: 70px;
+  span {
+    color: #ff3366;
+  }
   @media (min-width: 768px) {
     font-size: 3.2rem;
   }
 }
 .subtitle,
 .under-subtitle {
+  font-family: 'Open Sans', sans-serif;
   padding: 0;
   margin: 0;
 }
 .subtitle {
-  font-size: 1rem;
+  font-size: 20px;
+  line-height: 30px;
   margin-bottom: 0 !important;
+  padding-top: 1rem;
+  font-weight: 400 !important;
+  // letter-spacing: 1.5px;
 }
 .under-subtitle {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 1rem;
   border-top: 2px solid $primary;
   padding-top: 5px;
+  letter-spacing: 1px;
 }
 .opti-image {
   opacity: 0;
