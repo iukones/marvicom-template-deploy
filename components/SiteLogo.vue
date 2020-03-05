@@ -19,15 +19,15 @@ export default {
   position: relative;
   height: 100px;
   overflow: hidden;
-  width: 200px;
+  width: 250px;
   .logo-inner {
     position: absolute;
     // height: 500px;
     img {
       display: block;
-      width: 200px;
+      width: 250px;
       height: 100px;
-      margin: 5px;
+      // margin: 5px;
       max-height: initial;
     }
   }

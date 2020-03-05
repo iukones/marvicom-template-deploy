@@ -152,6 +152,7 @@ export default {
       position: static;
       transform: translateX(-10px);
       cursor: pointer;
+      color: #ff3366;
     }
   }
   &.active {
