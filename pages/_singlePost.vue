@@ -71,4 +71,9 @@ export default {
 .edit-post {
   margin-bottom: 20px;
 }
+.other-posts {
+  margin-top: 6em;
+  border-top: 1px dashed #eee;
+  padding-top: 2rem;
+}
 </style>
