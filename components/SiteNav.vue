@@ -71,6 +71,20 @@ export default {
 }
 .navbar-burger {
   height: auto;
+  width: 5.25rem;
+}
+
+.navbar-burger span {
+  height: 3px !important;
+  width: 28px !important;
+}
+
+.navbar-burger span:nth-child(1) {
+  top: calc(50% - 8px) !important;
+}
+
+.navbar-burger span:nth-child(3) {
+  top: calc(50% + 6px) !important;
 }
 
 .navbar-menu a {

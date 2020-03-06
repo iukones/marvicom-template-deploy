@@ -10,8 +10,9 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'Marvicom Comunicaciones',
-  tagline: 'Noticias, reportajes veraces y oportunos',
-  featureImage: '/uploads/home-hero.jpg',
+  tagline:
+    'Noticias, reportajes, comunicación veraz y oportuna al alcance de tus manos.',
+  featureImage: '/uploads/home-hero-2.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
@@ -24,7 +25,7 @@ export default {
     },
     {
       name: 'Servicios',
-      link: '/about'
+      link: '/services'
     },
     {
       name: 'Categorias',

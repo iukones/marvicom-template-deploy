@@ -62,6 +62,15 @@ export default {
   overflow: hidden;
   position: relative;
   height: 80vh;
+  @media (max-width: 768px) {
+    height: 60vh;
+  }
+}
+
+.container {
+  @media (max-width: 768px) {
+    margin-top: 3rem;
+  }
 }
 
 .title {
@@ -74,6 +83,9 @@ export default {
   }
   @media (min-width: 768px) {
     font-size: 3.2rem;
+  }
+  @media (max-width: 768px) {
+    line-height: initial;
   }
 }
 .subtitle,
