@@ -78,5 +78,6 @@ export default {
 }
 iframe {
   max-width: 100% !important;
+  min-height: auto !important;
 }
 </style>
