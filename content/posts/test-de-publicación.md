@@ -9,9 +9,12 @@ featureImage: /uploads/about-hero.jpg
 ---
 ## Test de vídeo incrustado...
 
-Da click en la imagen para ver el vídeo.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xdO8UzvZ_7g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
+* test
+* test 3
+* test 4
