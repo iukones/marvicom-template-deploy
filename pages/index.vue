@@ -50,7 +50,7 @@ export default {
   border-top: none;
 }
 iframe {
-  min-height: auto;
-  max-width: 100%;
+  min-height: auto !important;
+  max-width: 100% !important;
 }
 </style>
