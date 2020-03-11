@@ -16,6 +16,7 @@ export default {
   computed: {
     content() {
       const md = new MarkdownIt({
+        html: true,
         linkify: true,
         typographer: true
       })
