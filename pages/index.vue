@@ -49,4 +49,8 @@ export default {
 .home-page .under-subtitle {
   border-top: none;
 }
+iframe {
+  min-height: auto;
+  max-width: 100%;
+}
 </style>

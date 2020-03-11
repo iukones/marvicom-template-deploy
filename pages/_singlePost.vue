@@ -76,8 +76,4 @@ export default {
   border-top: 1px dashed #eee;
   padding-top: 2rem;
 }
-iframe {
-  max-width: 100% !important;
-  min-height: auto !important;
-}
 </style>
