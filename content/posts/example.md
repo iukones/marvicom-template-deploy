@@ -2,7 +2,7 @@
 title: Example
 subtitle: Este es un post de prueba
 category:
-  - Noticias
+  - Noticias nacionales
 author: Miguel Martínez
 date: 2020-04-04T06:05:38.677Z
 featureImage: /uploads/daniel.jpg
