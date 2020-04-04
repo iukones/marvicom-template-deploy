@@ -92,7 +92,7 @@ export default {
   font-weight: 600;
   line-height: 24px;
   font-size: 13px;
-  color: #ff3366;
+  color: #007c89;
   text-transform: uppercase;
 }
 </style>
