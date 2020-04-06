@@ -2,7 +2,7 @@
   <modal-overlay
     id="newsletter-modal"
     :title="title"
-    trigger-text="Subscribe To Newsletter"
+    trigger-text="Subscribete al Newsletter"
     class="newsletter-modal"
   >
     <news-letter-form />
@@ -27,6 +27,10 @@ export default {
 .newsletter-modal {
   .field.has-addons {
     justify-content: center;
+  }
+  .modal-card-body {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
   }
 }
 </style>

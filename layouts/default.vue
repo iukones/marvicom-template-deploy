@@ -133,7 +133,14 @@ h6 {
     Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-weight: 600 !important;
 }
-
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  color: #0f203a !important;
+}
 *,
 *:before,
 *:after {

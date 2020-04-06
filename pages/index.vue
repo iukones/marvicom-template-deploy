@@ -2,10 +2,10 @@
   <div id="home-page" class="page-wrapper home-page">
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
       <button
-        class="button is-primary"
+        class="button is-primary is-medium is-inverted is-outlined"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
       >
-        Suscribete
+        Suscribirse
       </button>
     </site-hero>
     <main-section theme="sidebar-right">

@@ -13,9 +13,11 @@ export default {
 
 <style scoped>
 footer {
-  background: #eee;
-  padding: 20px 10px;
+  background: #0f203a;
+  padding: 30px 20px;
   text-align: center;
+  color: #fff;
+  font-size: 1rem;
   transition: 0.5s ease all;
 }
 </style>

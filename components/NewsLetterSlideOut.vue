@@ -61,6 +61,7 @@ export default {
   }
   .message-header {
     justify-content: start;
+    font-weight: normal;
     .close {
       margin-right: 16px;
       cursor: pointer;

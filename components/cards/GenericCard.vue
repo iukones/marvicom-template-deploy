@@ -77,10 +77,18 @@ export default {
 }
 </script>
 <style scoped lang="scss">
+.title {
+  color: #0f203a;
+}
 .subtitle {
-  opacity: 0.5;
+  // opacity: 0.5;
   font-size: 0.8rem;
   font-family: 'Open Sans';
+  font-weight: 400 !important;
+  strong {
+    color: #007c89 !important;
+    font-weight: bold;
+  }
 }
 .empty-content-placeholder {
   background: transparent;
