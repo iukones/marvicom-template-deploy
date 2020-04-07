@@ -30,11 +30,11 @@ export default {
     {
       name: 'Categorias',
       link: '/categories'
-    },
-    {
-      name: 'Contacto',
-      link: '/contact'
     }
+    // {
+    //   name: 'Contacto',
+    //   link: '/contact'
+    // }
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark

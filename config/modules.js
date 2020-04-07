@@ -23,10 +23,19 @@ if (siteConfig.googleAnalytics.on && siteConfig.googleAnalytics.id) {
 
 export const modulesSettings = {
   fontawesome: {
+    component: 'fa',
     imports: [
       {
         set: '@fortawesome/free-solid-svg-icons',
         icons: ['faTimes', 'faSearch', 'faEnvelope', 'faUser', 'faBriefcase']
+      },
+      {
+        set:'@fortawesome/free-brands-svg-icons',
+        icons: ['faFacebook', 'faYoutube']
+      },
+      {
+        set:'@fortawesome/free-regular-svg-icons',
+        icons: ['faLightbulb']
       }
     ]
   },

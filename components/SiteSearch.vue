@@ -35,20 +35,13 @@
 
         <li v-else>
           No encontrado
-          <font-awesome-icon
-            icon="times"
-            @click="toggleSearchBar()"
-          ></font-awesome-icon>
+          <fa icon="times" @click="toggleSearchBar()" />
         </li>
       </ul>
     </span>
 
     <label for="search-input">
-      <font-awesome-icon
-        icon="search"
-        class="search-icon"
-        @click="toggleSearchBar()"
-      />
+      <fa icon="search" class="search-icon" @click="toggleSearchBar()" />
     </label>
   </div>
 </template>

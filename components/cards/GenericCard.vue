@@ -114,7 +114,18 @@ export default {
 .opti-image-loaded + .spinner-wrapper {
   display: none;
 }
+.card {
+  border-radius: 6px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+}
+.card .image {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
 .card img {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
   transition: 0.8s ease-in-out all;
   &:hover {
     transform: scale(1.02);

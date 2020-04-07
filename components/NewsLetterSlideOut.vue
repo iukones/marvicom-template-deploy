@@ -7,7 +7,7 @@
     "
   >
     <div class="message-header">
-      <font-awesome-icon
+      <fa
         :icon="active ? 'times' : 'envelope'"
         :aria-label="active ? 'close' : 'open'"
         class="close"

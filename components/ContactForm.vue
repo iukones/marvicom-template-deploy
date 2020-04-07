@@ -6,7 +6,7 @@
       <div class="control has-icons-left">
         <input class="input is-medium" type="text" placeholder="John Smith" />
         <span class="icon is-small is-left">
-          <font-awesome-icon icon="user" />
+          <fa icon="user" />
         </span>
       </div>
     </div>
@@ -20,7 +20,7 @@
           placeholder="you@email.com"
         />
         <span class="icon is-small is-left">
-          <font-awesome-icon icon="envelope" />
+          <fa icon="envelope" />
         </span>
       </div>
     </div>
@@ -34,7 +34,7 @@
           placeholder="Brief Summary"
         />
         <span class="icon is-small is-left">
-          <font-awesome-icon icon="briefcase" />
+          <fa icon="briefcase" />
         </span>
       </div>
     </div>
