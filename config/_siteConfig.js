@@ -21,11 +21,11 @@ export default {
   mainMenu: [
     {
       name: 'Nosotros',
-      link: '/about'
+      link: '/nosotros'
     },
     {
       name: 'Servicios',
-      link: '/services'
+      link: '/servicios'
     },
     {
       name: 'Categorias',
@@ -33,7 +33,7 @@ export default {
     }
     // {
     //   name: 'Contacto',
-    //   link: '/contact'
+    //   link: '/contacto'
     // }
   ],
   hero: {

@@ -1,14 +1,14 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
-      title="Sobre nosotros"
-      subtitle="Explicación, Misión, Visión"
+      title="Nuestros servicios"
+      subtitle="Tenemos varios servicios que te podrian interesar."
       image="/uploads/about-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>Fake contenido</h3>
+          <h3>Servicios test</h3>
           <p>
             <strong>
               Edit this page in<code>/pages/about.vue</code>to fit your needs.
@@ -99,7 +99,7 @@ import QuoteCard from '~/components/cards/QuoteCard'
 export default {
   head() {
     return {
-      title: `About | ${this.$siteConfig.siteName}`
+      title: `Servicios | ${this.$siteConfig.siteName}`
     }
   },
   components: { QuoteCard }

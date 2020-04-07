@@ -1,6 +1,10 @@
 <template>
   <div id="categories-page" class="page-wrapper categories-page">
-    <site-hero title="Categorias" image="https://picsum.photos/1800/1801" />
+    <site-hero
+      title="Categorias"
+      subtitle="Busca tu sección favorita en nuestras categorias."
+      image="/uploads/category.jpg"
+    />
     <main-section theme="one-column">
       <categories-grid />
     </main-section>
