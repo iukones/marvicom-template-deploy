@@ -95,4 +95,7 @@ export default {
   color: #007c89;
   text-transform: uppercase;
 }
+.navbar-menu a:hover {
+  color: #ff3860 !important;
+}
 </style>
