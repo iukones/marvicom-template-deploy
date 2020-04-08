@@ -66,7 +66,7 @@ export default {
 .site-search-wrapper {
   transform: translateX(5px);
   @media (max-width: 1023px) {
-    display: none;
+    display: none !important;
   }
 }
 .navbar-burger {
@@ -86,7 +86,12 @@ export default {
 .navbar-burger span:nth-child(3) {
   top: calc(50% + 6px) !important;
 }
-
+.navbar-menu {
+  @media (max-width: 1023px) {
+    height: 90vh;
+    padding: 3.5rem 0;
+  }
+}
 .navbar-menu a {
   display: block;
   font-weight: 600;
@@ -94,8 +99,18 @@ export default {
   font-size: 13px;
   color: #007c89;
   text-transform: uppercase;
+  @media (max-width: 1023px) {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
 }
 .navbar-menu a:hover {
   color: #ff3860 !important;
+}
+.navbar-item {
+  @media (max-width: 1023px) {
+    display: flex;
+    justify-content: center;
+  }
 }
 </style>
