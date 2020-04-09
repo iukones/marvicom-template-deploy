@@ -3,7 +3,7 @@
     <site-hero
       title="Nuestros servicios"
       subtitle="Tenemos varios servicios que te podrian interesar."
-      image="/uploads/about-hero.jpg"
+      image="/uploads/services.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
