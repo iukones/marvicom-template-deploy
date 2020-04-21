@@ -31,7 +31,7 @@ Donald J. Trump✔\
 The W.H.O. really blew it. For some reason, funded largely by the United States, yet very China centric. We will be giving that a good look. Fortunately I rejected their advice on keeping our borders open to China early on. Why did they give us such a faulty recommendation?
 
 > \
-> **La OMS. Realmente lo sopló. Por alguna razón, financiado en gran parte por los Estados Unidos, pero muy centrado en China. Le daremos un buen aspecto. Afortunadamente, rechacé sus consejos para mantener nuestras fronteras abiertas a China desde el principio. ¿Por qué nos dieron una recomendación tan defectuosa?**
+> ***La OMS. Realmente lo sopló. Por alguna razón, financiado en gran parte por los Estados Unidos, pero muy centrado en China. Le daremos un buen aspecto. Afortunadamente, rechacé sus consejos para mantener nuestras fronteras abiertas a China desde el principio. ¿Por qué nos dieron una recomendación tan defectuosa?***
 
 ***<br>***
 
