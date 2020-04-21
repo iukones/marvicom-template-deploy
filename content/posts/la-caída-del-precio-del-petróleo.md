@@ -7,7 +7,7 @@ author: Miguel Martínez
 date: 2020-04-20T20:00:43.839Z
 featureImage: /uploads/nota_petroleo.png
 ---
-# DÍA NEGRO COMO EL PETRÓLEO.
+# Día negro como el petróleo.
 
 Caída del precio del petróleo: las consecuencias para América Latina de la caída del valor del crudo en medio de la crisis por el coronavirus.
 
@@ -27,7 +27,9 @@ El **WTI** comenzó la jornada cotizándose en torno a los **US$18**, pero lleg�
 
 <br>
 
-El principal factor que explica esta caída de precios es la drástica reducción de demanda energética por el coronavirus, una epidemia que mantiene a más de **3.000** millones de personas de todo el mundo confinadas en sus hogares.
+> *El principal factor que explica esta caída de precios es la drástica reducción de demanda energética por el coronavirus, una epidemia que mantiene a más de **3.000** millones de personas de todo el mundo confinadas en sus hogares.*
+
+<br>
 
 Además, cabe recordar que el petróleo se comercia con su precio a futuro y los contratos para mayo expiran este martes 21 de abril.
 
