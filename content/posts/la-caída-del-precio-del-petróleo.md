@@ -3,7 +3,7 @@ title: La caída del precio del petróleo.
 subtitle: Las consecuencias para América Latina.
 category:
   - Noticias internacionales
-author: Daniel Martínez
+author: Miguel Martínez
 date: 2020-04-20T20:00:43.839Z
 featureImage: /uploads/nota_petroleo.png
 ---
@@ -13,7 +13,7 @@ Caída del precio del petróleo: las consecuencias para América Latina de la ca
 
 La pandemia del coronavirus continúa impactando la economía mundial, en particular el precio del petróleo..
 
-A la marcada caída del valor del crudo el pasado mes le siguió este lunes el desplome histórico de los precios a futuro del petróleo estadounidense de referencia ***West Texas Intermediate (WTI)***, que llegó a cotizarse en negativo.
+A la marcada caída del valor del crudo el pasado mes le siguió este lunes el desplome histórico de los precios a futuro del petróleo estadounidense de referencia **West Texas Intermediate (WTI)**, que llegó a cotizarse en negativo.
 
 El **WTI** comenzó la jornada cotizándose en torno a los **US$18**, pero llegó a caer hasta los **US$-37,63**. En negativo, algo sin precedentes.
 
