@@ -2,9 +2,9 @@
 title: Dr. Tedros en la mira.
 subtitle: La estrecha relación entre la OMS y China
 category:
-  - Noticias internacionales
+  - Noticias nacionales
 author: Daniel Martínez
-date: 2020-04-20T18:25:13.890Z
+date: 2020-04-10T18:25:13.890Z
 featureImage: /uploads/china_oms.jpg
 ---
 # La estrecha relación entre la OMS y China.
@@ -23,6 +23,10 @@ La “transparencia” de China ha sido puesta en duda. Reporteros Sin Frontera 
 ![Tedros Adhanom Ghebreyesus](/uploads/oms.png "Tedros Adhanom Ghebreyesus")
 
 <br>
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w70JLEBr6a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 “La Organización Mundial de la Salud debería cambiar su nombre de **OMS** a **OCS**: **‘Organización China de la Salud’**. Ese nombre sería más apropiado”, estalló el viceprimer ministro japonés, Aso Taro, en una sesión parlamentaria en la que denunció la influencia de **Beijing** en la **OMS**. No es el único. El Presidente de Estados Unidos Donald Trump acusó a la **OMS** el 7 de abril de ser **“chinocéntrica”**, pese a que la mayor parte de su financiamiento proviene de EE.UU. “Afortunadamente, rechacé sus consejos para mantener nuestras fronteras abiertas a China desde el principio. ¿Por qué nos dieron una recomendación tan defectuosa?”, escribió en Twitter.
 
