@@ -1,6 +1,19 @@
 <template>
-  <div class="post-sidebar box">
-    Publicidad aquí
+  <div class="post-sidebar ">
+    <div class="container-banner-ads">
+      <div class="banner-ads">
+        <a href="">
+          <img src="~/assets/uploads/test.jpg" alt="Ad for SendGrid" />
+        </a>
+      </div>
+      <div class="info-ads">
+        <a href="">
+          Dra. Oriehta Sánchez Sánchez, nuestra experta en salud nutricional,
+          sigue sus consejos y tips, en nuestro blog de salud y en sus redes
+          sociales.
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -8,3 +21,68 @@ export default {
   name: 'PostSidebar'
 }
 </script>
+
+<style lang="scss">
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+.post-sidebar {
+  & a {
+    color: white;
+  }
+  & a:hover {
+    color: #ff3860;
+  }
+}
+.container-banner-ads {
+  margin: 1.8rem 0 1.8rem 0;
+  transform: translateX(-0.5rem);
+}
+.container-banner-ads:before {
+  content: '';
+  background: #007c89;
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  padding-bottom: 1rem;
+  opacity: 0.5;
+}
+.banner-ads {
+  margin: 0;
+  position: relative;
+  & img {
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(16, 14, 23, 0.25);
+  }
+}
+.info-ads {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 1rem 0 2rem 25px;
+  margin-left: 1rem;
+  white-space: normal;
+  position: relative;
+  // text-align: left;
+}
+/* .page-main-section {
+  margin-top: 52px;
+}
+.hero + .page-main-section {
+  margin-top: initial;
+}
+.is-one-quarter {
+  padding: 0 20px;
+  &.right-sidebar {
+    border-left: 1px dashed #eee;
+  }
+  &.left-sidebar {
+    border-right: 1px dashed #eee;
+  }
+} */
+</style>

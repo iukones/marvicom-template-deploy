@@ -20,6 +20,10 @@ export default {
   },
   mainMenu: [
     {
+      name: 'Inicio',
+      link: '/'
+    },
+    {
       name: 'Nosotros',
       link: '/nosotros'
     },
