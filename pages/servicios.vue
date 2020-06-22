@@ -105,7 +105,10 @@
                     </ul>
                   </div>
                   <div class="card__button">
-                    <a href="#" class="button__content">
+                    <a
+                      href="mailto:marvicom.live@gmail.com?subject=Feedback producto 1"
+                      class="button__content"
+                    >
                       Cotizar
                     </a>
                   </div>
@@ -114,7 +117,7 @@
               <!-- card dos -->
               <div class="card__item middle">
                 <div class="item__top">
-                  Most Popular
+                  Más Popular
                 </div>
                 <div class="card__content">
                   <div class="card__header">
@@ -212,7 +215,10 @@
                     </ul>
                   </div>
                   <div class="card__button">
-                    <a href="#" class="button__content">
+                    <a
+                      href="mailto:marvicom.live@gmail.com?subject=Feedback producto 2"
+                      class="button__content"
+                    >
                       Cotizar
                     </a>
                   </div>
@@ -301,7 +307,10 @@
                     </ul>
                   </div>
                   <div class="card__button">
-                    <a href="#" class="button__content">
+                    <a
+                      href="mailto:marvicom.live@gmail.com?subject=Feedback producto 3"
+                      class="button__content"
+                    >
                       Cotizar
                     </a>
                   </div>
@@ -390,7 +399,6 @@ export default {
   & p {
     font-size: 1rem;
     margin-bottom: 0.5rem;
-    // font-size: 1.125rem;
     color: #637381;
     text-align: center;
     padding: 0 1.5rem 0 1.5rem;
@@ -404,7 +412,7 @@ export default {
 .divided {
   width: 6rem;
   opacity: 0.75;
-  margin: 1rem auto 1rem auto;
+  margin: 3rem auto 1rem auto;
   height: 0.25rem;
   background-color: #c3dafe;
   border-radius: 0.25rem;
@@ -440,11 +448,11 @@ export default {
           color: #fff;
           border-top-left-radius: 0;
           border-top-right-radius: 0;
-          box-shadow: 0 20px 30px -19px rgba(160, 44, 219, 0.68),
+          box-shadow: 0 20px 30px -19px rgba(51, 67, 84, 0.68),
             0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
           background: url(../assets/uploads/left-circles.svg) no-repeat left
               bottom,
-            linear-gradient(90deg, #ba81ff 5%, #ff6a95 99%) !important;
+            linear-gradient(90deg, #aec9cb 5%, #334354 99%) !important;
           & .card__header {
             h1 {
               color: #fff !important;
@@ -468,15 +476,14 @@ export default {
               color: #0f203a;
             }
             & .button__content:hover {
-              background-color: rgba(255, 255, 255, 0.1) !important;
+              background: transparent;
               border: 1px solid rgba(255, 255, 255, 0.7) !important;
+              color: #fff;
             }
           }
         }
         & .item__top {
           font-family: 'Montserrat', sans-serif;
-          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-            0 4px 6px -2px rgba(0, 0, 0, 0.05);
           letter-spacing: 0.025em;
           text-transform: uppercase;
           font-size: 0.875rem;
@@ -490,15 +497,11 @@ export default {
           background-color: #edf2f7;
           color: #212b35;
         }
-        & .list__icon {
-          color: #fff !important;
-        }
         @media (min-width: 640px) {
           width: 66.666667%;
         }
       }
       &.last {
-        // border: 1px dashed red;
         @media (min-width: 768px) {
           margin-left: -1rem;
         }
@@ -507,7 +510,6 @@ export default {
         box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
         overflow: hidden;
         border-radius: 0.5rem;
-        // background-color: #edf2f7;
         background-color: rgba(237, 242, 247, 0.5);
         & .card__header {
           font-size: 0.875rem;
@@ -571,19 +573,8 @@ export default {
           display: flex;
           align-items: center;
           justify-content: center;
-          // max-width: 140px;
           & .button__content {
-            /* border: 1px solid rgba(255, 255, 255, 0.5);
-            border-radius: 5px;
-            font-size: 14px;
-            padding: 11px 15px;
-            font-weight: bold;
-            width: 100%;
-            cursor: pointer;
-            transition: all 0.3s ease-in-out;
-            text-align: center; */
-            // otra prueba
-            background: linear-gradient(90deg, #f073c8 0%, #ff6a95 99%);
+            background: linear-gradient(90deg, #aec9cb 0%, #334354 99%);
             border-radius: 5px;
             font-size: 14px;
             padding: 11px 15px;
@@ -593,12 +584,12 @@ export default {
             transition: all 0.3s ease-in-out;
             text-align: center;
             color: #ffffff;
-            box-shadow: 0 12px 12px -11px rgba(240, 115, 200, 0.73);
+            box-shadow: 0 12px 12px -11px rgba(51, 67, 84, 0.73);
             background-size: 200% auto;
           }
           & .button__content:hover {
             background-position: right center;
-            box-shadow: 0 12px 20px -11px rgba(255, 106, 149, 0.72);
+            box-shadow: 0 12px 20px -11px rgba(51, 67, 84, 0.72);
           }
         }
       }
@@ -616,9 +607,6 @@ export default {
   }
   @media (min-width: 768px) {
     max-width: 72rem;
-    /* .content__item {
-      flex-direction: row;
-    } */
   }
 }
 </style>

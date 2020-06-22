@@ -53,10 +53,11 @@ footer {
 }
 .footer-social a {
   padding: 0 6px;
-  color: #ff6a95;
+  color: #fafafa;
   font-size: 2rem;
+  transition: all 0.3s ease-in-out;
 }
 .footer-social a:hover {
-  color: #fff !important;
+  color: rgb(214, 207, 207) !important;
 }
 </style>
