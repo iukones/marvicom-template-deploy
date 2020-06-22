@@ -14,7 +14,7 @@
         <posts-grid />
       </template>
       <template v-slot:sidebar>
-        Sección publicitaria
+        <post-sidebar />
       </template>
     </main-section>
     <news-letter-form-modal />
@@ -25,6 +25,7 @@
 import { mapState } from 'vuex'
 import { setPageData } from '../helper'
 import NewsLetterFormModal from '~/components/NewsLetterFormModal'
+import PostSidebar from '~/components/PostSidebar'
 
 export default {
   name: 'HomePage',
@@ -34,7 +35,8 @@ export default {
     }
   },
   components: {
-    NewsLetterFormModal
+    NewsLetterFormModal,
+    PostSidebar
   },
   computed: {
     ...mapState(['title', 'subtitle', 'featureImage'])

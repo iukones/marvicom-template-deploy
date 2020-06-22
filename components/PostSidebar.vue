@@ -1,5 +1,6 @@
 <template>
   <div class="post-sidebar ">
+    <h2>Publicidad</h2>
     <div class="container-banner-ads">
       <div class="banner-ads">
         <a href="">
@@ -29,6 +30,11 @@ export default {
   box-sizing: border-box;
 }
 .post-sidebar {
+  h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
   & a {
     color: white;
   }
@@ -68,21 +74,5 @@ export default {
   margin-left: 1rem;
   white-space: normal;
   position: relative;
-  // text-align: left;
 }
-/* .page-main-section {
-  margin-top: 52px;
-}
-.hero + .page-main-section {
-  margin-top: initial;
-}
-.is-one-quarter {
-  padding: 0 20px;
-  &.right-sidebar {
-    border-left: 1px dashed #eee;
-  }
-  &.left-sidebar {
-    border-right: 1px dashed #eee;
-  }
-} */
 </style>
