@@ -105,7 +105,7 @@ export default {
   }
 }
 .navbar-menu a:hover {
-  color: #ff3860 !important;
+  color: #ff6a95 !important;
 }
 .navbar-item {
   @media (max-width: 1023px) {

@@ -11,7 +11,7 @@
         <div class="container">
           <div class="content__title">
             <h1>
-              Servicios.
+              Paquetes y Servicios
             </h1>
             <p>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -104,119 +104,118 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="block flex items-center p-8  uppercase">
-                    <button
-                      class="mt-3 text-lg font-semibold
-                          bg-black w-full text-white rounded-lg
-                          px-6 py-3 block shadow-xl hover:bg-gray-700"
-                    >
-                      Select
-                    </button>
+                  <div class="card__button">
+                    <a href="#" class="button__content">
+                      Cotizar
+                    </a>
                   </div>
                 </div>
               </div>
               <!-- card dos -->
               <div class="card__item middle">
-                <div
-                  class="text-sm leading-none rounded-t-lg bg-gray-200 text-black font-semibold uppercase py-4 text-center tracking-wide"
-                >
+                <div class="item__top">
                   Most Popular
                 </div>
-                <div
-                  class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6"
-                >
-                  <h1
-                    class="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide"
-                  >
-                    Expert
-                  </h1>
-                  <h2 class="text-sm text-gray-500 text-center pb-6">
-                    <span class="text-3xl">€19</span> /mo
-                  </h2>
-
-                  Stripe offers everything needed to run an online business at
-                  scale. Get in touch for details.
-                </div>
-                <div class="flex pl-12 justify-start sm:justify-start mt-3">
-                  <ul>
-                    <li class="flex items-center">
-                      <div class="rounded-full p-2 fill-current text-green-700">
-                        <svg
-                          class="w-6 h-6 align-middle"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                          <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
-                      </div>
-                      <span class="text-gray-700 text-lg ml-3">
-                        No setup
-                      </span>
-                    </li>
-                    <li class="flex items-center">
-                      <div
-                        class=" rounded-full p-2 fill-current text-green-700"
-                      >
-                        <svg
-                          class="w-6 h-6 align-middle"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                          <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
-                      </div>
-                      <span class="text-gray-700 text-lg ml-3">
-                        Hidden fees
-                      </span>
-                    </li>
-                    <li class="flex items-center">
-                      <div
-                        class=" rounded-full p-2 fill-current text-green-700"
-                      >
-                        <svg
-                          class="w-6 h-6 align-middle"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                          <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
-                      </div>
-                      <span class="text-gray-700 text-lg ml-3">
-                        Original
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="block flex items-center p-8  uppercase">
-                  <button
-                    class="mt-3 text-lg font-semibold
-                        bg-black w-full text-white rounded-lg
-                        px-6 py-3 block shadow-xl hover:bg-gray-700"
-                  >
-                    Select
-                  </button>
+                <div class="card__content">
+                  <div class="card__header">
+                    <h1>
+                      Expert
+                    </h1>
+                    <h2><span>$1,900</span> /mes</h2>
+                    <p>
+                      Stripe offers everything needed to run an online business
+                      at scale. Get in touch for details.
+                    </p>
+                  </div>
+                  <div class="card__body">
+                    <ul>
+                      <li>
+                        <div class="list__icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                          </svg>
+                        </div>
+                        <span>
+                          No setup
+                        </span>
+                      </li>
+                      <li>
+                        <div class="list__icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                          </svg>
+                        </div>
+                        <span>
+                          Hidden fees
+                        </span>
+                      </li>
+                      <li>
+                        <div class="list__icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                          </svg>
+                        </div>
+                        <span>
+                          Hidden fees
+                        </span>
+                      </li>
+                      <li>
+                        <div class="list__icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                          </svg>
+                        </div>
+                        <span>
+                          Original
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card__button">
+                    <a href="#" class="button__content">
+                      Cotizar
+                    </a>
+                  </div>
                 </div>
               </div>
               <!-- card tres -->
@@ -242,7 +241,6 @@
                       <li>
                         <div class="list__icon">
                           <svg
-                            class="w-6 h-6 align-middle"
                             width="24"
                             height="24"
                             viewBox="0 0 24 24"
@@ -263,7 +261,6 @@
                       <li>
                         <div class="list__icon">
                           <svg
-                            class="w-6 h-6 align-middle"
                             width="24"
                             height="24"
                             viewBox="0 0 24 24"
@@ -284,7 +281,6 @@
                       <li>
                         <div class="list__icon">
                           <svg
-                            class="w-6 h-6 align-middle"
                             width="24"
                             height="24"
                             viewBox="0 0 24 24"
@@ -304,14 +300,10 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="block flex items-center p-8  uppercase">
-                    <button
-                      class="mt-3 text-lg font-semibold
-                          bg-black w-full text-white rounded-lg
-                          px-6 py-3 block shadow-xl hover:bg-gray-700"
-                    >
-                      Select
-                    </button>
+                  <div class="card__button">
+                    <a href="#" class="button__content">
+                      Cotizar
+                    </a>
                   </div>
                 </div>
               </div>
@@ -389,17 +381,24 @@ export default {
     line-height: 1.2142857143;
     letter-spacing: -0.025em;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1.8rem;
     font-family: 'Montserrat', sans-serif;
+    @media (min-width: 768px) {
+      font-size: 2rem;
+    }
   }
   & p {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
     // font-size: 1.125rem;
     color: #637381;
     text-align: center;
     padding: 0 1.5rem 0 1.5rem;
-    margin-top: 0.5em;
+    margin-top: 0.5rem;
+    @media (min-width: 768px) {
+      padding: 0 15.5rem 0 15.5rem;
+      font-size: 1.3rem;
+    }
   }
 }
 .divided {
@@ -412,7 +411,7 @@ export default {
 }
 .main__content__card {
   padding: 0 2rem 0 2rem;
-  margin: 0.75rem auto 0.75rem auto;
+  margin: 3rem auto 1.75rem auto;
   max-width: 100%;
   & .content__item {
     display: flex;
@@ -429,16 +428,71 @@ export default {
       margin: 2rem auto 2rem auto;
       border-radius: 0.5rem;
       &.first {
-        // border: 1px dashed red;
         @media (min-width: 768px) {
           margin-right: -1rem;
         }
       }
       &.middle {
-        // border: 1px dashed blue;
         width: 100%;
         max-width: 28rem;
         z-index: 10;
+        & .card__content {
+          color: #fff;
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+          box-shadow: 0 20px 30px -19px rgba(160, 44, 219, 0.68),
+            0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+          background: url(../assets/uploads/left-circles.svg) no-repeat left
+              bottom,
+            linear-gradient(90deg, #ba81ff 5%, #ff6a95 99%) !important;
+          & .card__header {
+            h1 {
+              color: #fff !important;
+            }
+            h2 {
+              color: #212b35 !important;
+            }
+          }
+          & .card__button {
+            & .button__content {
+              border: 1px solid rgba(255, 255, 255, 0.5);
+              border-radius: 5px;
+              font-size: 14px;
+              padding: 11px 15px;
+              font-weight: bold;
+              width: 100%;
+              cursor: pointer;
+              transition: all 0.3s ease-in-out;
+              text-align: center;
+              background: linear-gradient(90deg, #fafafa 0%, #e8e8e8 99%);
+              color: #0f203a;
+            }
+            & .button__content:hover {
+              background-color: rgba(255, 255, 255, 0.1) !important;
+              border: 1px solid rgba(255, 255, 255, 0.7) !important;
+            }
+          }
+        }
+        & .item__top {
+          font-family: 'Montserrat', sans-serif;
+          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+            0 4px 6px -2px rgba(0, 0, 0, 0.05);
+          letter-spacing: 0.025em;
+          text-transform: uppercase;
+          font-size: 0.875rem;
+          text-align: center;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          line-height: 1;
+          font-weight: 600;
+          border-top-left-radius: 0.4rem;
+          border-top-right-radius: 0.4rem;
+          background-color: #edf2f7;
+          color: #212b35;
+        }
+        & .list__icon {
+          color: #fff !important;
+        }
         @media (min-width: 640px) {
           width: 66.666667%;
         }
@@ -453,6 +507,8 @@ export default {
         box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
         overflow: hidden;
         border-radius: 0.5rem;
+        // background-color: #edf2f7;
+        background-color: rgba(237, 242, 247, 0.5);
         & .card__header {
           font-size: 0.875rem;
           text-align: left;
@@ -473,7 +529,7 @@ export default {
           & h2 {
             font-family: 'Montserrat', sans-serif;
             font-size: 0.875rem;
-            color: #c3dafe !important;
+            color: #637381 !important;
             text-align: center;
             padding-bottom: 1.5rem;
             margin-top: 0;
@@ -498,9 +554,51 @@ export default {
                 padding: 0.5rem;
                 border-radius: 9999px;
                 fill: currentColor;
-                color: #ff3860;
+                color: #ff6a95;
+                & svg {
+                  vertical-align: middle;
+                }
+              }
+              & .list__details {
+                color: #637381;
               }
             }
+          }
+        }
+        & .card__button {
+          text-transform: uppercase;
+          padding: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          // max-width: 140px;
+          & .button__content {
+            /* border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 5px;
+            font-size: 14px;
+            padding: 11px 15px;
+            font-weight: bold;
+            width: 100%;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            text-align: center; */
+            // otra prueba
+            background: linear-gradient(90deg, #f073c8 0%, #ff6a95 99%);
+            border-radius: 5px;
+            font-size: 14px;
+            padding: 11px 15px;
+            font-weight: bold;
+            width: 100%;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            text-align: center;
+            color: #ffffff;
+            box-shadow: 0 12px 12px -11px rgba(240, 115, 200, 0.73);
+            background-size: 200% auto;
+          }
+          & .button__content:hover {
+            background-position: right center;
+            box-shadow: 0 12px 20px -11px rgba(255, 106, 149, 0.72);
           }
         }
       }

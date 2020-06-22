@@ -53,7 +53,7 @@ footer {
 }
 .footer-social a {
   padding: 0 6px;
-  color: #ff3860;
+  color: #ff6a95;
   font-size: 2rem;
 }
 .footer-social a:hover {

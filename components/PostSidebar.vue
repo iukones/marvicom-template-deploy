@@ -33,7 +33,7 @@ export default {
     color: white;
   }
   & a:hover {
-    color: #ff3860;
+    color: #ff6a95;
   }
 }
 .container-banner-ads {
