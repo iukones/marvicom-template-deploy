@@ -24,16 +24,16 @@ export default {
       link: '/'
     },
     {
+      name: 'Categorias',
+      link: '/categories'
+    },
+    {
       name: 'Nosotros',
       link: '/nosotros'
     },
     {
       name: 'Servicios',
       link: '/servicios'
-    },
-    {
-      name: 'Categorias',
-      link: '/categories'
     }
     // {
     //   name: 'Contacto',

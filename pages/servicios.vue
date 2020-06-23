@@ -14,8 +14,8 @@
               Paquetes y Servicios
             </h1>
             <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.
+              Verifica nuestros planes de servicios para tus medios y publicidad
+              digital, uno de nuestros servicios se adapta a sus necesidades.
             </p>
           </div>
           <div class="divided"></div>
@@ -318,6 +318,18 @@
               </div>
             </div>
           </div>
+          <div class="divided"></div>
+          <div class="content__title bottom">
+            <h2>
+              "Crece con el plan adecuado para tu negocio"
+            </h2>
+            <p class="text__bottom">
+              Los planes personalizados están disponibles para proveedores de
+              servicios, personal o franquicias, negocios de múltiples
+              ubicaciones y organizaciones. Para obtener información detallada
+              sobre precios o planes personalizados, contáctenos.
+            </p>
+          </div>
         </div>
       </section>
     </div>
@@ -396,7 +408,12 @@ export default {
       font-size: 2rem;
     }
   }
-  & p {
+  & h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  & p,
+  .text__bottom {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     color: #637381;
@@ -407,6 +424,15 @@ export default {
       padding: 0 15.5rem 0 15.5rem;
       font-size: 1.3rem;
     }
+  }
+  & .text__bottom {
+    @media (min-width: 768px) {
+      padding: 0 10rem 0 10rem !important;
+      font-size: 1.3rem;
+    }
+  }
+  &.bottom {
+    margin-top: 5rem;
   }
 }
 .divided {
@@ -530,7 +556,7 @@ export default {
           }
           & h2 {
             font-family: 'Montserrat', sans-serif;
-            font-size: 0.875rem;
+            font-size: 1.875rem;
             color: #637381 !important;
             text-align: center;
             padding-bottom: 1.5rem;
