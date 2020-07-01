@@ -101,8 +101,8 @@ export default {
   padding-top: 1rem;
   font-weight: 400 !important;
   @media (min-width: 1024px) {
-    padding-left: 25rem;
-    padding-right: 25rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
   }
 }
 .under-subtitle {
