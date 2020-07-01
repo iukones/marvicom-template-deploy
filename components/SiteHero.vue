@@ -100,7 +100,7 @@ export default {
   margin-bottom: 0 !important;
   padding-top: 1rem;
   font-weight: 400 !important;
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     padding-left: 25rem;
     padding-right: 25rem;
   }

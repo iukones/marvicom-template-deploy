@@ -61,7 +61,7 @@ export default {
   margin-left: 0;
   font-size: 1.5rem;
   @media (min-width: 1024px) {
-    margin: 1.5rem;
+    margin: 1.5rem 1.5rem 2rem;
     font-size: 2rem;
     letter-spacing: 1.5px;
   }
