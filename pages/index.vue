@@ -11,6 +11,9 @@
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <!-- All Posts -->
+        <h2 class="subtitle__post">
+          Noticias recientes.
+        </h2>
         <posts-grid />
       </template>
       <template v-slot:sidebar>
@@ -47,12 +50,26 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 .home-page .under-subtitle {
   border-top: none;
+}
+.subtitle__post {
+  font-family: 'Montserrat', sans-serif;
+  color: #0f203a;
+  letter-spacing: normal;
+  margin-left: 0;
+  font-size: 1.5rem;
+  @media (min-width: 1024px) {
+    margin: 1.5rem;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+  }
 }
 iframe {
   min-height: 315px !important;
   max-width: 100% !important;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 </style>

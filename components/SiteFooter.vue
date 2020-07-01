@@ -58,6 +58,6 @@ footer {
   transition: all 0.3s ease-in-out;
 }
 .footer-social a:hover {
-  color: rgb(214, 207, 207) !important;
+  color: #aec9cb !important;
 }
 </style>

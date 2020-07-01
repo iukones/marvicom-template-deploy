@@ -20,7 +20,7 @@ export default {
   },
   mainMenu: [
     {
-      name: 'Inicio',
+      name: 'Noticias',
       link: '/'
     },
     {
