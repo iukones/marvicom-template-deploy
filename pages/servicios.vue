@@ -582,7 +582,7 @@ export default {
                 padding: 0.5rem;
                 border-radius: 9999px;
                 fill: currentColor;
-                color: #ff6a95;
+                color: #db7b87;
                 & svg {
                   vertical-align: middle;
                 }

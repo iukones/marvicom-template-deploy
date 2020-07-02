@@ -2,106 +2,92 @@
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
       title="Sobre nosotros"
-      subtitle="Explicación, Misión, Visión"
+      subtitle="Nuestra Misión, Visión y Objetivos en Marvicom comunicaciones"
       image="/uploads/about-hero.jpg"
     ></site-hero>
-    <main-section theme="sidebar-right">
-      <template v-slot:default>
-        <div class="content">
-          <h3>Fake contenido</h3>
-          <p>
-            <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
-            </strong>
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
-          </p>
-
-          <h3>otro Fake contenido</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
-          </p>
-          <quote-card />
-          <h3>Still More Fake Content</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.
-            <strong>Alias aut facere harum ipsam</strong> quibusdam quidem
-            quisquam saepe? Alias architecto blanditiis consequatur consequuntur
-            dicta ipsa iste modi provident, quod, similique veritatis.
-          </p>
-        </div>
-
-        <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Cool Stuff We Do
-              </p>
-              <p class="subtitle">
-                Sooo Cool
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
+    <div class="content">
+      <!-- component -->
+      <section>
+        <div class="container">
+          <div class="content__title">
+            <h1>
+              Marvicom prensa y revista digital.
+            </h1>
+            <p>
+              Nuestro proyecto ambicioso de canal digital de comunicación, el
+              cual se ha estructurado en el formato de revista digital.
+            </p>
           </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Other Cool Things
-              </p>
-              <p class="subtitle">
-                Just as cool
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                All the cool
-              </p>
-              <p class="subtitle">
-                that is all
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
+          <div class="divided"></div>
+
+          <div class="main__content__card">
+            <div class="blocks">
+              <div class="blocks__content">
+                <figure class="blocks__image">
+                  <div class="blocks__images__content">
+                    <img
+                      src="../assets/uploads/about-1.jpg"
+                      alt="image example"
+                    />
+                    <div class="image__overlay"></div>
+                  </div>
+                  <figcaption class="image__card">
+                    <div class="card__text">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Voluptatem vitae, expedita architecto obcaecati
+                        laudantium eius sit adipisci excepturi aut, inventore,
+                        vel quasi ipsam beatae sequi. Sed excepturi ipsa minima
+                        suscipit!
+                      </p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
           </div>
         </div>
-      </template>
-
-      <template v-slot:sidebar>
-        <h3 class="subtitle is-4">
-          Últimas publicaciones
-        </h3>
-        <posts-grid :per-row="1" :number="2" />
-      </template>
-    </main-section>
+      </section>
+    </div>
   </div>
 </template>
 <script>
-import QuoteCard from '~/components/cards/QuoteCard'
+// import QuoteCard from '~/components/cards/QuoteCard'
 export default {
   head() {
     return {
       title: `Nosotros | ${this.$siteConfig.siteName}`
     }
-  },
-  components: { QuoteCard }
+  }
+  // components: { QuoteCard }
 }
 </script>
+<style lang="scss">
+.blocks {
+  border: 1px solid red;
+  position: relative;
+  height: auto;
+  padding: 17px;
+  outline: none;
+  box-shadow: inset 0 0 0 1px rgba(128, 128, 128, 0);
+  -webkit-transition: box-shadow 0.2s ease-in-out;
+  -moz-transition: box-shadow 0.2s ease-in-out;
+  -ms-transition: box-shadow 0.2s ease-in-out;
+  -o-transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  @media (min-width: 640px) {
+    margin-top: 0 !important;
+  }
+  & .blocks__image {
+    display: block;
+    position: relative;
+    margin: 0;
+    & .blocks__images__content {
+      overflow: visible;
+      width: 90%;
+      position: relative;
+      max-width: initial;
+    }
+  }
+}
+</style>
