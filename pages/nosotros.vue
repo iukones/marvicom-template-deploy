@@ -14,7 +14,7 @@
               Marvicom prensa y revista digital.
             </h1>
             <p>
-              Nuestro proyecto ambicioso de canal digital de comunicación, el
+              Nuestro proyecto ambicioso de un canal digital de comunicación, el
               cual se ha estructurado en el formato de revista digital.
             </p>
           </div>
