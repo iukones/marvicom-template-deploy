@@ -27,14 +27,24 @@ export const modulesSettings = {
     imports: [
       {
         set: '@fortawesome/free-solid-svg-icons',
-        icons: ['faTimes', 'faSearch', 'faEnvelope', 'faUser', 'faBriefcase']
+        icons: [
+          'faTimes',
+          'faSearch',
+          'faEnvelope',
+          'faUser',
+          'faUsers',
+          'faBriefcase',
+          'faMicrophone',
+          'faProjectDiagram',
+          'faLightbulb'
+        ]
       },
       {
-        set:'@fortawesome/free-brands-svg-icons',
+        set: '@fortawesome/free-brands-svg-icons',
         icons: ['faFacebook', 'faYoutube']
       },
       {
-        set:'@fortawesome/free-regular-svg-icons',
+        set: '@fortawesome/free-regular-svg-icons',
         icons: ['faLightbulb']
       }
     ]

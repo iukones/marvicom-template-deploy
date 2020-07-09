@@ -362,7 +362,7 @@ export default {
   https://codepen.io/chriscoyier/pen/vYNwBXq */
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .container {
   width: 100%;
   @media (min-width: 1280px) {
@@ -420,14 +420,22 @@ export default {
     text-align: center;
     padding: 0 1.5rem 0 1.5rem;
     margin-top: 0.5rem;
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
       padding: 0 15.5rem 0 15.5rem;
+      font-size: 1.3rem;
+    }
+    @media (min-width: 768px) {
+      padding: 0 8rem 0 8rem;
       font-size: 1.3rem;
     }
   }
   & .text__bottom {
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
       padding: 0 10rem 0 10rem !important;
+      font-size: 1.3rem;
+    }
+    @media (min-width: 768px) {
+      padding: 0 5rem 0 5rem !important;
       font-size: 1.3rem;
     }
   }

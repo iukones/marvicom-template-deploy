@@ -60,6 +60,9 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+.navbar.is-fixed-top {
+  z-index: 1000;
+}
 .has-shadow {
   box-shadow: 0 10px 25px -19px rgba(51, 67, 84, 0.68),
     0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
