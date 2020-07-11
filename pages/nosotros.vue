@@ -308,7 +308,8 @@ export default {
   }
 
   img {
-    max-width: 100%;
+    width: 100%;
+    // max-width: 100%;
   }
   .intro-blur {
     display: none;
