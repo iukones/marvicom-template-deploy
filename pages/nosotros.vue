@@ -27,8 +27,8 @@
                   <source
                     srcset="
                       ../assets/uploads/origami@2x.jpg 1590w,
-                      // eslint-disable-next-line prettier/prettier
-                      ../assets/uploads/origami.jpg 795w"
+                      ../assets/uploads/origami.jpg     795w
+                    "
                     sizes="100vw"
                     media="( min-width: 34em )"
                   />
@@ -130,9 +130,9 @@ export default {
     .container {
       max-width: 1024px;
     }
-    .main__content__card {
+    /* .main__content__card {
       max-width: 80%;
-    }
+    } */
   }
   @media (min-width: 768px) {
     .container {
@@ -149,6 +149,8 @@ export default {
   padding: 3.75em 0;
 }
 .content__title {
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
   & h1 {
     -webkit-font-kerning: normal;
     font-kerning: normal;
@@ -216,7 +218,7 @@ export default {
   max-width: 100%;
   & .icon {
     margin-left: 1.5rem;
-    color: burlywood;
+    // color: burlywood;
   }
   /*
   Cover story
@@ -302,7 +304,7 @@ export default {
   .intro-blur img {
     // transform: scale(2);
     // filter: blur(17px);
-    max-width: 60%;
+    max-width: 50%;
   }
 
   img {
@@ -376,7 +378,7 @@ export default {
     .blurb {
       align-self: center;
       grid-column: 3 / -1;
-      justify-self: end;
+      justify-self: start;
       max-width: 30em;
       position: relative;
       z-index: 100;
@@ -404,7 +406,7 @@ export default {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 3rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
