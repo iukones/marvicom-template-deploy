@@ -3,7 +3,7 @@
     <site-hero
       title="Categorias"
       subtitle="Busca tu sección favorita en nuestras categorias."
-      image="/uploads/category.jpg"
+      image="/uploads/category-edit.jpg"
     />
     <main-section theme="one-column">
       <categories-grid />

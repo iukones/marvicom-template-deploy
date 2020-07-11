@@ -1,4 +1,7 @@
 export default {
+  htmlAttrs: {
+    lang: 'es'
+  },
   title: process.env.npm_package_name || '',
   meta: [
     { charset: 'utf-8' },

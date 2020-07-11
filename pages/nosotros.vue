@@ -3,7 +3,7 @@
     <site-hero
       title="Sobre nosotros"
       subtitle="Nuestra Misión, Visión y Objetivos en Marvicom comunicaciones"
-      image="/uploads/about-hero.jpg"
+      image="/uploads/about-hero-2.jpg"
     ></site-hero>
     <div class="content">
       <!-- component -->
@@ -26,59 +26,58 @@
                 <picture>
                   <source
                     srcset="
-                      ../assets/uploads/origami@2x.jpg 1590w,
-                      ../assets/uploads/origami.jpg     795w
+                      ../assets/uploads/about-4@2x.jpg   1590w,
+                      ../assets/uploads/about-4-orig.jpg  795w
                     "
                     sizes="100vw"
                     media="( min-width: 34em )"
                   />
                   <img
                     class="intro-art"
-                    src="../assets/uploads/origami-sm.jpg"
+                    src="../assets/uploads/about-4-sm.jpg"
                     alt="Rawr."
                   />
                 </picture>
 
                 <div class="intro-blur" role="presentation">
-                  <img src="../assets/uploads/origami.jpg" alt="" />
+                  <img src="../assets/uploads/about-4-orig.jpg" alt="" />
                 </div>
 
                 <div class="blurb">
                   <h2 class="hed hed-blurb">
-                    <span class="icon">
-                      <fa :icon="['fas', 'users']" />
-                    </span>
-                    <a href="#">
-                      <q>
-                        It’s not terrible, but it can be lone to be theking.
-                      </q>
-                    </a>
+                    <q>
+                      Objetivo de nuestro proyecto
+                    </q>
                   </h2>
                   <p>
-                    In a new interview, Chadley Tyrannosaurus opens up about
-                    life, laughter, and love as predator.
+                    llevar información veraz, oportuna, e imparcial a nuestro
+                    mercado meta usuarios de redes sociales, asumiendo una
+                    responsabilidad social, ética y profesionalismo informativo.
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="main__content__card">
+            <div class="content__title bottom">
+              <h2>Nuestra Misión y Visión.</h2>
+            </div>
             <div class="detail__text">
               <div class="text__content">
                 <div class="blurb">
                   <h2 class="hed hed-blurb">
                     <span class="icon">
-                      <fa :icon="['fas', 'project-diagram']" />
+                      <fa :icon="['fas', 'users']" />
                     </span>
-                    <a href="#">
-                      <q>
-                        It’s not terrible, but it can be lone to be theking.
-                      </q>
-                    </a>
+                    <q>
+                      Como revista informativa digital
+                    </q>
                   </h2>
                   <p>
-                    In a new interview, Chadley Tyrannosaurus opens up about
-                    life, laughter, and love as predator.
+                    abordaremos temas de interés comunitario en noticias
+                    locales, nacionales e internacionales, temas culturales,
+                    turísticos, economía y finanzas, bienestar y salud entre
+                    otros.
                   </p>
                 </div>
               </div>
@@ -88,15 +87,15 @@
                     <span class="icon">
                       <fa :icon="['fas', 'lightbulb']" />
                     </span>
-                    <a href="#">
-                      <q>
-                        It’s not terrible, but it can be lone to be theking.
-                      </q>
-                    </a>
+                    <q>
+                      Definidos por nuestro trabajo
+                    </q>
                   </h2>
                   <p>
-                    In a new interview, Chadley Tyrannosaurus opens up about
-                    life, laughter, and love as predator.
+                    siempre apegados a nuestra misión y visión definidos de
+                    acuerdo a los valores que harán de nuestra empresa una
+                    organización transparente, con sentido humano y con
+                    responsabilidad social.
                   </p>
                 </div>
               </div>
@@ -202,6 +201,7 @@ export default {
   }
   &.bottom {
     margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 }
 .divided {
@@ -278,7 +278,7 @@ export default {
     /* 40/16 */
     line-height: 1.05;
     /* 42/40 */
-    margin: 0 0 0.25em;
+    margin: 0 0 0.5em;
     text-indent: -0.75em;
     color: #fff !important;
   }

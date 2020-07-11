@@ -12,7 +12,7 @@ export default {
   siteName: 'Marvicom Comunicaciones',
   tagline:
     'Noticias, reportajes, comunicación veraz y oportuna al alcance de tus manos.',
-  featureImage: '/uploads/home-hero-2.jpg',
+  featureImage: '/uploads/home-hero-2-edit.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
