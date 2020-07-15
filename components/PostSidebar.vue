@@ -54,7 +54,7 @@ export default {
   right: -1rem;
   width: 100%;
   height: 100%;
-  border-radius: 16px;
+  border-radius: 5px;
   padding-bottom: 1rem;
   opacity: 0.5;
 }
@@ -63,7 +63,7 @@ export default {
   position: relative;
   & img {
     display: block;
-    border-radius: 8px;
+    border-radius: 5px;
     box-shadow: 0 0 30px rgba(16, 14, 23, 0.25);
   }
 }

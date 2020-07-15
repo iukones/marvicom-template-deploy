@@ -60,6 +60,9 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+.navbar-brand {
+  background: hsl(208, 100%, 97%);
+}
 .navbar.is-fixed-top {
   z-index: 1000;
 }
@@ -94,6 +97,8 @@ export default {
   top: calc(50% + 6px) !important;
 }
 .navbar-menu {
+  background: url(../assets/uploads/left-circles.svg) no-repeat left bottom,
+    linear-gradient(90deg, #aec9cb 5%, #334354 99%) !important;
   @media (max-width: 1023px) {
     height: 90vh;
     padding: 3.5rem 0;
@@ -104,7 +109,7 @@ export default {
   font-weight: 600;
   line-height: 24px;
   font-size: 13px;
-  color: #007c89;
+  color: #fff;
   text-transform: uppercase;
   @media (max-width: 1023px) {
     font-size: 1.5rem;
