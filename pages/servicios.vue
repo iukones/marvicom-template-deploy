@@ -620,6 +620,7 @@ export default {
             color: #ffffff;
             box-shadow: 0 12px 12px -11px rgba(51, 67, 84, 0.73);
             background-size: 200% auto;
+            letter-spacing: 1.5px;
           }
           & .button__content:hover {
             background-position: right center;

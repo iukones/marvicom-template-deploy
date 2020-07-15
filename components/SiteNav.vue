@@ -111,6 +111,7 @@ export default {
   font-size: 13px;
   color: #fff;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
   @media (max-width: 1023px) {
     font-size: 1.5rem;
     padding: 1rem;
