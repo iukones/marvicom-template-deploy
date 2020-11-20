@@ -4,7 +4,7 @@ subtitle: Segey difunde herramientas enfocadas en proteger al alumnado.
 category:
   - Noticias nacionales
 author: Daniel Martínez
-date: 2020-11-19T22:29:26.792Z
+date: 2020-11-20T05:51:41.199Z
 featureImage: /uploads/capacitacion-encabezado.jpg
 ---
 Especialistas de la ***Dirección Jurídica de la Secretaría de Educación del Gobierno del Estado (Segey)*** difunden el “Protocolo de actuación ante situaciones de violencia detectadas o cometidas en contra de niñas, niños y adolescentes en los planteles escolares de educación básica de Yucatán”, que se perfila como una guía imprescindible para salvaguardar la integridad física y emocional del alumnado, de gran importancia para el Gobernador **Mauricio Vila Dosal**.
