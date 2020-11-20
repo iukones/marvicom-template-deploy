@@ -2,7 +2,7 @@
 title: Dr. Tedros en la mira.
 subtitle: La estrecha relación entre la OMS y China
 category:
-  - Noticias nacionales
+  - Noticias internacionales
 author: Daniel Martínez
 date: 2020-04-10T18:25:13.890Z
 featureImage: /uploads/china_oms.jpg
