@@ -30,11 +30,11 @@ export default {
     {
       name: 'Nosotros',
       link: '/nosotros'
-    },
-    {
-      name: 'Servicios',
-      link: '/servicios'
     }
+    // {
+    //   name: 'Servicios',
+    //   link: '/servicios'
+    // }
     // {
     //   name: 'Contacto',
     //   link: '/contacto'
