@@ -14,10 +14,10 @@ export default {
     'Noticias, reportajes, comunicación veraz y oportuna al alcance de tus manos.',
   featureImage: '/uploads/home-hero-2-edit.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
-  googleAnalytics: {
-    on: true,
-    id: process.env.GOOGLE_ANALYTICS_ID
-  },
+  // googleAnalytics: {
+  //   on: true,
+  //   id: process.env.GOOGLE_ANALYTICS_ID
+  // },
   mainMenu: [
     {
       name: 'Noticias',
