@@ -64,7 +64,7 @@ export default {
   // height: 80vh;
   @media (max-width: 768px) {
     height: 60vh;
-    margin-top: 3rem;
+    margin-top: 9rem;
   }
 }
 
@@ -87,6 +87,7 @@ export default {
   }
   @media (max-width: 768px) {
     line-height: initial;
+    font-size: 1.2rem;
   }
 }
 .subtitle,
@@ -131,7 +132,7 @@ export default {
     bottom: 0;
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    // height: 100%;
   }
   .opti-image {
     opacity: 0;
@@ -163,6 +164,9 @@ export default {
   .hero-body {
     position: relative;
     z-index: 2;
+    @media (max-width: 768px) {
+      padding: 1rem;
+    }
   }
 }
 .hero-theme-dark {
