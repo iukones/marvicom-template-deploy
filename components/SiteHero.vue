@@ -63,8 +63,8 @@ export default {
   position: relative;
   // height: 80vh;
   @media (max-width: 768px) {
-    height: 60vh;
-    margin-top: 9rem;
+    height: 37vh;
+    margin-top: 7rem;
   }
 }
 
