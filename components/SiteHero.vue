@@ -55,15 +55,16 @@ export default {
 
 <style lang="scss" scoped>
 .hero {
-  margin-top: 6rem;
+  // margin-top: 6rem;
   background-size: cover !important;
   background-position: center;
   text-align: center;
   overflow: hidden;
   position: relative;
-  height: 80vh;
+  // height: 80vh;
   @media (max-width: 768px) {
     height: 60vh;
+    margin-top: 3rem;
   }
 }
 
